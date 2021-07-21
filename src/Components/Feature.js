@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FeatureSection = () => {
+let Feature = ()=>{
     return(
         <div className="bg-success text-center">
         <p className="display-4 text-white p-4">Discover the amazing new app</p>
@@ -17,4 +17,4 @@ const FeatureSection = () => {
       </div>
     )
 }
-    export default FeatureSection
+export default Feature
