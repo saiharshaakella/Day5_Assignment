@@ -1,22 +1,21 @@
 import React from 'react'
-import './App.css';
+import './App.css'
+import Body from './Components/Body'
+import Feature from './Components/Feature'
 import NavBar from './Components/Navbar'
-import HeroSection from './Components/HeroSection'
-import FeatureSection from './Components/FeatureSection'
 import CardSection from './Components/CardSection'
-import FooterSection from './Components/FooterSection'
+import Footer from './Components/Footer'
 
 function App() {
   return (
-    <div>
-        <NavBar />
-        <FeatureSection />
-        <HeroSection />
-        <CardSection />
-        <FooterSection />
-
+    <div className="App">
+		  <NavBar />
+		  <Body />
+		  <Feature />
+		  <CardSection />
+		  <Footer />
     </div>
   )
 }
 
-export default App;
+export default App
